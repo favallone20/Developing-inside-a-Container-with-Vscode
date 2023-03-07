@@ -38,7 +38,7 @@ where cpp_tutorials is the image's name chosen. This instruction must be execute
 ## Define a container with a docker volume to develop inside our local workspace
 
 ```bash
-docker run --name cpp_container  -v /home/${USER}/workspace:/home/workspace -it cpp_tutorials
+docker run --name cpp_container  -v /home/${USER}/workspace:/home/workspace -it cpp_tutorials /bin/bash
 ```
 
 ## Install extensions for vscode
